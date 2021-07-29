@@ -1,13 +1,18 @@
 vi:
-  hello: "Hello world"
   tutorial: "Ruby on Rails Tutorial"
   root_title: "Ruby on Rails Tutorial Sample App"
+  home: "Trang chu"
+  help: "Tro giup"
+  login: "Dang nhap"
+  app_name: "Sample App"
   static_pages:
     home:
       heading: "Trang chủ"
       app_name: "Sample App"
+      hello: "Chào mừng bạn đến với"
       intro: "Chào mừng bạn đến với"
       type_app: "sample app"
+      sign_up: "dang ky ngay"
     help:
       heading: "Hỗ trợ"
       intro_help_page: "Nhận trợ giúp về Ruby on Rails tại"

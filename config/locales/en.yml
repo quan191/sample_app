@@ -1,13 +1,18 @@
 en:
-  hello: "Hello world"
   tutorial: "Ruby on Rails Tutorial"
   root_title: "Ruby on Rails Tutorial Sample App"
+  home: "Home"
+  help: "Help"
+  login: "Login"
+  app_name: "Sample App"
   static_pages:
     home:
       heading: "Home"
       app_name: "Sample App"
+      hello: "Welcome to the"
       intro: "This is the home page for the"
       type_app: "sample application"
+      sign_up: "sign up now"
     help:
       heading: "Help"
       intro_help_page: "Get help on the Ruby on Rails Tutorial at the"

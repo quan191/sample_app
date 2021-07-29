@@ -1,9 +1,10 @@
 <%= provide :title, t(".heading") %>
-<h1>
-  <%= t(".app_name") %>
-</h1>
-<p>
-  <%= t ".intro" %>
-  <%= link_to t("tutorial"), Settings.ruby_on_rails_url %>
-  <%= t(".type_app") %>.
-</p>
+<div class="center jumbotron">
+  <h1><%= t".hello" %> <%= t".app_name" %></h1>
+  <h2>
+    <%= t ".intro" %>
+    <%= link_to t("tutorial"), Settings.ruby_on_rails_url %>
+    <%= t(".type_app") %>.
+  </h2>
+  <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+</div>
