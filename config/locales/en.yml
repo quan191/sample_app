@@ -5,6 +5,8 @@ en:
   help: "Help"
   login: "Login"
   app_name: "Sample App"
+  after_create: "Welcome to sample app"
+  sign_up_fail: "Sign up fail"
   static_pages:
     home:
       heading: "Home"
@@ -29,3 +31,17 @@ en:
       heading: "Contact"
       intro: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact: "contact page."
+  users:
+    new:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Re-enter Password"
+      create: "Create User"
+      title: "Sign up"
+    show:
+      user_not_found: "User not found"
+  shared:
+    error_messages:
+      the_form_contains: "Your form has "
+      error: "mistakes"

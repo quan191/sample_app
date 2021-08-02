@@ -5,6 +5,8 @@ vi:
   help: "Tro giup"
   login: "Dang nhap"
   app_name: "Sample App"
+  after_create: " Chao mung den voi sample app"
+  sign_up_fail: "Tao tai khoan that bai"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -29,3 +31,17 @@ vi:
       heading: "Liên hệ"
       intro: "Liên hệ ở"
       contact: "trang liên hệ."
+  users:
+    new:
+      name: "Họ và tên"
+      email: "Email"
+      password: "Mật khẩu "
+      password_confirm: "Nhập lại mật khẩu "
+      create: "Tạo tài khoản"
+      title: "Đăng kí"
+    show:
+      user_not_found: "Không tìm thấy người dùng "
+  shared:
+    error_messages:
+      the_form_contains: "Form của bạn có "
+      error: "lỗi"
