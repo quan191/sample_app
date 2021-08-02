@@ -7,6 +7,11 @@ en:
   app_name: "Sample App"
   after_create: "Welcome to sample app"
   sign_up_fail: "Sign up fail"
+  login_fail: "Login fail. Email or password is wrong"
+  account: "account"
+  profile: "profile"
+  settings: "settings"
+  log_out: "log out"
   static_pages:
     home:
       heading: "Home"
@@ -45,3 +50,10 @@ en:
     error_messages:
       the_form_contains: "Your form has "
       error: "mistakes"
+  sessions:
+    new:
+      log_in: "Login"
+      email: "Email"
+      password: "Password"
+      sign_up: "Sign up now !"
+      new_user: "New User ?"

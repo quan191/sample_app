@@ -1,9 +1,10 @@
 class ApplicationController < ActionController::Base
   before_action :set_locale
 
-  private
   rescue_from ActiveRecord::RecordNotFound, with: :handle_record_not_found
+  include SessionsHelper
 
+  private
   def handle_record_not_found
     flash[:danger] = t ".user_not_found"
     redirect_to root_path
