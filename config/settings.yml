@@ -1,3 +1,12 @@
 rails_home_link: "https://www.railstutorial.org/"
 rails_help_link: "https://www.railstutorial.org/help"
 rails_book_link: "https://www.railstutorial.org/book"
+validate:
+  name:
+    max_length: 50
+  email:
+    max_length: 254
+    format: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+    case_sensitive: false
+  password:
+    min_length: 6
