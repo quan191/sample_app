@@ -12,6 +12,11 @@ en:
   profile: "profile"
   settings: "settings"
   log_out: "log out"
+  update_success: "Profile Updated"
+  update_fail: "Update fail"
+  delete_success: "Delete success"
+  delete_fail: "Delete failed"
+  login_warn: "Please login "
   static_pages:
     home:
       heading: "Home"
@@ -37,15 +42,24 @@ en:
       intro: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact: "contact page."
   users:
-    new:
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
-      password_confirm: "Re-enter Password"
+      password_confirm: "Confirmination"
+    new:
       create: "Create User"
       title: "Sign up"
     show:
       user_not_found: "User not found"
+    edit:
+      change: "Save change"
+      title: "Edit users"
+    index:
+      title: "All Users"
+    user:
+      delete: "Delete"
+      confirm: "You sure ????"
   shared:
     error_messages:
       the_form_contains: "Your form has "

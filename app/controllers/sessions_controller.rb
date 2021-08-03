@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
       login user
     else
       flash.now[:danger] = t "login_fail"
-      render "new"
+      render :new
     end
   end
 
@@ -17,7 +17,6 @@ class SessionsController < ApplicationController
   end
 
   private
-
   def login user
     log_in user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
