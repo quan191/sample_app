@@ -7,6 +7,11 @@ vi:
   app_name: "Sample App"
   after_create: " Chao mung den voi sample app"
   sign_up_fail: "Tao tai khoan that bai"
+  login_fail: "dang nhap that bai. Bạn đã nhập sai tài khoản hoặc mật khẩu"
+  account: "Tài khoản"
+  profile: "Thông tin"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -45,3 +50,10 @@ vi:
     error_messages:
       the_form_contains: "Form của bạn có "
       error: "lỗi"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      sign_up: "Đăng kí ngay !"
+      new_user: "Chưa có tài khoản ?"
