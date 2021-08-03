@@ -20,7 +20,8 @@ vi:
   activate_success: "Xac thuc tai khoan thanh cong"
   activate_fail: "Xac thuc tai khoan that bai . khong dung email"
   mesage_activate: "Tai khoan nay chua duoc xac thuc . Hay kiem tra email"
-  subject: "xac minh tai khoan"
+  activate_subject: "xac minh tai khoan"
+  reset_subject: "Reset mat khau"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -76,9 +77,31 @@ vi:
       sign_up: "Đăng kí ngay !"
       new_user: "Chưa có tài khoản ?"
       remember: "Ghi nho tren may tinh nay"
+      forgot_password: "Quen mat khau"
   user_mailer:
     account_activation:
       subject: "Xác thực tài khoản"
       greetings: "Xin chào"
       welcome: "Chào mừng bạn đến với ứng dụng! Hãy nhấn vào link bên dưới để kích hoạt tài khoản:"
       active: "Kích Hoạt"
+    password_reset:
+      title: "Hoi phuc mat khau"
+      header: "Click vào link bên dưới để reset mật khẩu "
+      expire: "Link này sẽ mất sau 2 giờ."
+      info: "Nếu bạn không có nhu cầu hãy bỏ qua mail này ."
+  password_resets:
+    send_success: "Đã gửi link reset mật khẩu đến email"
+    send_fail: "Không tìm thấy email"
+    empty_password: "Mật khẩu không được để trống "
+    reset_success: "Thay đổi mật khẩu thành công"
+    reset_fail: "Thay đổi thất bại"
+    reset_expired: "hết hạn thay đổi "
+    new:
+      title: "Lấy lại mật khẩu "
+      email: "Nhập tài khoản mail của bạn"
+      submit: "Xác nhận"
+    edit:
+      title: "Lấy lại mật khẩu "
+      password: "Nhập mat khau moi  của bạn"
+      confirm: "Nhập lại mật khẩu"
+      submit: "Xác nhận"
