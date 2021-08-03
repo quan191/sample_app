@@ -17,6 +17,10 @@ en:
   delete_success: "Delete success"
   delete_fail: "Delete failed"
   login_warn: "Please login "
+  activate_success: "Activate success"
+  activate_fail: "Activate fail . Invalid email"
+  message_activate: "This account is not activate. Please check your email"
+  subject: "Account activation"
   static_pages:
     home:
       heading: "Home"
@@ -72,3 +76,9 @@ en:
       sign_up: "Sign up now !"
       new_user: "New User ?"
       remember: "Remember on this computer"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greetings: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Active"

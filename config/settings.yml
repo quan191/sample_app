@@ -13,4 +13,4 @@ validate:
 gravatar_size: 80
 gravatar_medium_size: 50
 gravatar_email: "https://gravatar.com/emails"
-record_per_page: 2
+record_per_page: 10
