@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
 
+  paginates_per Settings.record_per_page
+
   before_save :downcase_email
 
   PERMITTED_FIELDS = [:name, :email, :password, :password_confirmation].freeze
@@ -12,7 +14,8 @@ class User < ApplicationRecord
             format: {with: Settings.validate.email.format},
             uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-            length: {minimum: Settings.validate.password.min_length}
+            length: {minimum: Settings.validate.password.min_length},
+            allow_nil: true
 
   has_secure_password
 

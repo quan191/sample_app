@@ -12,6 +12,11 @@ vi:
   profile: "Thông tin"
   settings: "Cài đặt"
   log_out: "Đăng xuất"
+  update_success: "Lưu thông tin thành công "
+  update_fail: "luu thongg tin that bai"
+  delete_success: "Xóa user "
+  delete_fail: "Xóa user thất bại "
+  login_warn: "Xin hãy đăng nhập"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -37,15 +42,24 @@ vi:
       intro: "Liên hệ ở"
       contact: "trang liên hệ."
   users:
-    new:
+    form:
       name: "Họ và tên"
       email: "Email"
       password: "Mật khẩu "
-      password_confirm: "Nhập lại mật khẩu "
+      password_confirm: "Xác nhận mật khẩu"
+    new:
       create: "Tạo tài khoản"
       title: "Đăng kí"
     show:
       user_not_found: "Không tìm thấy người dùng "
+    edit:
+      change: "Lưu thay đổi "
+      title: "Chỉnh sửa thông tin"
+    index:
+      title: "Danh sách tài khoản"
+    user:
+      delete: "Xóa tài khoản"
+      confir: "Ban chac chan chu"
   shared:
     error_messages:
       the_form_contains: "Form của bạn có "
