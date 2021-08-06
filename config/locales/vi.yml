@@ -13,10 +13,14 @@ vi:
   settings: "Cài đặt"
   log_out: "Đăng xuất"
   update_success: "Lưu thông tin thành công "
-  update_fail: "luu thongg tin that bai"
+  update_fail: "Luu thong tin that bai"
   delete_success: "Xóa user "
   delete_fail: "Xóa user thất bại "
   login_warn: "Xin hãy đăng nhập"
+  activate_success: "Xac thuc tai khoan thanh cong"
+  activate_fail: "Xac thuc tai khoan that bai . khong dung email"
+  mesage_activate: "Tai khoan nay chua duoc xac thuc . Hay kiem tra email"
+  subject: "xac minh tai khoan"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -72,3 +76,9 @@ vi:
       sign_up: "Đăng kí ngay !"
       new_user: "Chưa có tài khoản ?"
       remember: "Ghi nho tren may tinh nay"
+  user_mailer:
+    account_activation:
+      subject: "Xác thực tài khoản"
+      greetings: "Xin chào"
+      welcome: "Chào mừng bạn đến với ứng dụng! Hãy nhấn vào link bên dưới để kích hoạt tài khoản:"
+      active: "Kích Hoạt"
