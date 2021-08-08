@@ -18,6 +18,11 @@ gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
 
+gem "active_storage_validations", "0.8.2"
+gem "image_processing", "1.9.3"
+gem "i18n-js"
+gem "mini_magick", "4.9.5"
+
 group :development, :test do
   gem "pry-rails"
   gem "rubocop", "~> 0.74.0", require: false

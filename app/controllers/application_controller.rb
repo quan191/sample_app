@@ -19,4 +19,12 @@ class ApplicationController < ActionController::Base
   def default_url_options
     {locale: I18n.locale}
   end
+
+  def logged_in_user
+    return if logged_in?
+
+    store_location
+    flash[:danger] = t "login_warn"
+    redirect_to login_url
+  end
 end

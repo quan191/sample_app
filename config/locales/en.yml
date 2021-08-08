@@ -30,6 +30,7 @@ en:
       intro: "This is the home page for the"
       type_app: "sample application"
       sign_up: "sign up now"
+      feed: "micropost feed"
     help:
       heading: "Help"
       intro_help_page: "Get help on the Ruby on Rails Tutorial at the"
@@ -57,6 +58,7 @@ en:
       title: "Sign up"
     show:
       user_not_found: "User not found"
+      micropost: "Micropost"
     edit:
       change: "Save change"
       title: "Edit users"
@@ -69,6 +71,12 @@ en:
     error_messages:
       the_form_contains: "Your form has "
       error: "mistakes"
+    user_info:
+      view_profile: "View profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost ..."
+      submit: "Submit"
   sessions:
     new:
       log_in: "Login"
@@ -105,3 +113,16 @@ en:
       password: "Enter your password"
       confirm: "Re-enter your password"
       submit: "Submit"
+  microposts:
+    image_invalid: "Must be a valid image format"
+    byte_invalid : "Must be lest than 5 MB"
+    create_success: "Success create"
+    create_fail: "Fail create"
+    bad_request: "Micropost invalid"
+    delete_success: "Delete success"
+    delete_fail: "Delete failed"
+    large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    micropost:
+      post: "Posted"
+      delete: "delete"
+      confirm: "You sure ???"

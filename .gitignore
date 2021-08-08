@@ -49,3 +49,6 @@ config/environments/*.local.yml
 test
 # Ignore application configuration
 /config/application.yml
+
+# Ignore uploaded test images.
+/storage
