@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :load_user, except: %i(index new create)
-  before_action :logged_in_user, except: %i(show create new)
+  before_action :logged_in_user, only: %i(index edit update
+                                          destroy following followers)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
@@ -56,10 +57,6 @@ class UsersController < ApplicationController
 
   def correct_user
     redirect_to root_url unless current_user? @user
-  end
-
-  def load_user
-    @user = User.find params[:id]
   end
 
   def admin_user

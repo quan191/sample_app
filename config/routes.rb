@@ -8,8 +8,12 @@ Rails.application.routes.draw do
     get "static_pages/contact"
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
-    resources :users, except: :new
-
+    resources :users do
+      member do
+        resources :followings, only: :index
+        resources :followers, only: :index
+      end
+    end
     get "/login", to: "sessions#new"
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
@@ -18,5 +22,6 @@ Rails.application.routes.draw do
     resources :password_resets, execpt: %i(index show destroy)
 
     resources :microposts, only: %i(create destroy)
+    resources :relationships, only: %i(create destroy)
   end
 end
