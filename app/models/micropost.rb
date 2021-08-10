@@ -5,8 +5,6 @@ class Micropost < ApplicationRecord
 
   POST_ATTRS = %i(content image).freeze
 
-  scope :newest, ->{order(created_at: :desc)}
-
   validates :user_id, presence: true
   validates :content, presence: true,
             length: {maximum: Settings.micropost.content.max_length}
@@ -15,6 +13,9 @@ class Micropost < ApplicationRecord
                     size: {less_than: Settings.micropost.image.max_size
                                               .megabytes,
                            message: I18n.t("microposts.byte_invalid")}
+
+  scope :newest, ->{order(created_at: :desc)}
+  scope :post_by_user, ->(ids){where user_id: ids}
 
   def display_image
     image.variant resize_to_limit: [Settings.micropost.image.limit,

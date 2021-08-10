@@ -67,6 +67,12 @@ en:
     user:
       delete: "Delete"
       confirm: "You sure ????"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    following: "following"
+    follower: "follower"
   shared:
     error_messages:
       the_form_contains: "Your form has "
@@ -77,6 +83,9 @@ en:
     micropost_form:
       compose: "Compose new micropost ..."
       submit: "Submit"
+    stats:
+      following: "followings"
+      follower: "follower"
   sessions:
     new:
       log_in: "Login"

@@ -67,6 +67,12 @@ vi:
     user:
       delete: "Xóa tài khoản"
       confir: "Ban chac chan chu"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "unfollow"
+    following: "Đang theo dõi "
+    follower: "người theo dõi"
   shared:
     error_messages:
       the_form_contains: "Form của bạn có "
@@ -77,6 +83,9 @@ vi:
     micropost_form:
       compose: "Bạn đang nghĩ gì ...."
       submit: "Xác nhận"
+    stats:
+      following: "Đang theo dõi "
+      follower: "người theo dõi"
   sessions:
     new:
       log_in: "Đăng nhập"

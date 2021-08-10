@@ -27,4 +27,8 @@ class ApplicationController < ActionController::Base
     flash[:danger] = t "login_warn"
     redirect_to login_url
   end
+
+  def load_user
+    @user = User.find params[:id]
+  end
 end
