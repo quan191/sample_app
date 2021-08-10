@@ -30,6 +30,7 @@ vi:
       intro: "Chào mừng bạn đến với"
       type_app: "sample app"
       sign_up: "dang ky ngay"
+      feed: "Feed bài đăng"
     help:
       heading: "Hỗ trợ"
       intro_help_page: "Nhận trợ giúp về Ruby on Rails tại"
@@ -57,6 +58,7 @@ vi:
       title: "Đăng kí"
     show:
       user_not_found: "Không tìm thấy người dùng "
+      micropost: "Bài đăng"
     edit:
       change: "Lưu thay đổi "
       title: "Chỉnh sửa thông tin"
@@ -69,6 +71,12 @@ vi:
     error_messages:
       the_form_contains: "Form của bạn có "
       error: "lỗi"
+    user_info:
+      view_profile: "View profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Bạn đang nghĩ gì ...."
+      submit: "Xác nhận"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -105,3 +113,17 @@ vi:
       password: "Nhập mat khau moi  của bạn"
       confirm: "Nhập lại mật khẩu"
       submit: "Xác nhận"
+  microposts:
+    image_invalid: "Dạng ảnh phải chuẩn"
+    byte_invalid: "Phải nhỏ hơn 5mb"
+    create_success: "Tao thanh cong "
+    create_fail: "Tao that bai"
+    bad_request: "Không có post nào "
+    delete_success: "Xóa thành công"
+    delete_fail: "Xóa thất bại "
+    micropost_form:
+      large_img_error: "File phai nho hon 5mb.Hay chon file nho hon"
+    micropost:
+      post: "Đăng lúc "
+      delete: "Xóa"
+      confirm: "Mày chắc chứ "
